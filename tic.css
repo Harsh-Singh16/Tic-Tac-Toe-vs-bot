@@ -1,0 +1,112 @@
+#temp1{
+    text-align: center;
+    box-sizing: border-box;
+    width: 30%;
+    height: 230px;
+   background-color: cyan;
+  margin: 260px auto;
+  border-radius: 12px;
+  padding: 5px;
+  font-size: 22px;
+  font-family: monospace;
+}
+.form-inputs {
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+  .input{
+    height: 1.2rem;
+    background: whitesmoke;
+  }
+  .form-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(90, 87, 87);
+  }
+   .button{
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: color 150ms ease;
+    margin-top: .8rem;
+    cursor: pointer;
+  } 
+  .form-labelsub {
+    color: rgb(142, 140, 140);
+    font-weight: 700;
+  }
+  #temp2{
+      display: none;
+  }
+  #temp2{
+      box-sizing: border-box;
+      background-color: cyan;  
+      width: 50%;
+      height: 500px;
+      margin: 60px auto;
+    }
+    .tic{
+      box-sizing: border-box;
+      display: inline-flexbox;
+      width: 300px;
+      height: 105px;
+      margin: auto;
+    }
+    .tic2{
+      box-sizing: border-box;
+      display: inline;
+      width: 300px;
+      height: 105px;
+      margin: auto;
+    }
+    .tic3{
+      box-sizing: border-box;
+      display: flex;
+      width: 300px;
+      height: 105px;
+      margin: auto;
+    }        
+  .box{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-right: .5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 85px;
+  }  
+  .box:hover{
+cursor: pointer;
+background-color: cornflowerblue;
+  }
+  .result{
+    display: none;
+  }
+  .result{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 20%;
+    margin: 280px auto;
+   text-align: center;
+  }
+ .won{
+   font-weight: 600;
+   margin: 0 3px;
+ }
+ .btn{
+  background-color: antiquewhite;
+  color: black;
+  font-weight: 700;
+  width: 50px;
+  font-size: 1rem;
+  transition: color 150ms ease;
+  margin-top: .8rem;
+  margin-left: 110px;
+  cursor: pointer;
+ }
